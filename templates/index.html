@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Demo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Blockchain Demo</h1>
+        <div class="links">
+            <a href="{{ url_for('create_genesis_block') }}">Create Genesis Block</a>
+        </div>
+        <div class="links">
+            <a href="{{ url_for('add_accidents') }}">Add Accidents</a>
+        </div>
+    </div>
+</body>
+</html>

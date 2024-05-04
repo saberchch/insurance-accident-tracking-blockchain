@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Accidents</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="add-accidents-container">
+        <h1>Add Accidents</h1>
+        <form method="POST">
+            <div class="form-group">
+                <label for="year">Year:</label>
+                <input type="number" id="year" name="year" value="{{ next_year }}" required>
+            </div>
+            <div class="form-group">
+                <label for="month">Month:</label>
+                <input type="number" id="month" name="month" value="{{ next_month }}" min="1" max="12" required>
+            </div>
+            <div class="form-group">
+                <label for="num_accidents">Number of Accidents:</label>
+                <input type="number" id="num_accidents" name="num_accidents" required>
+            </div>
+            <button type="submit">Add Accidents</button>
+        </form>
+    </div>
+</body>
+</html>
