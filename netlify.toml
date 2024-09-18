@@ -1,0 +1,13 @@
+[build]
+  publish = "static_site" # Directory where your static files are located
+  command = "echo 'No build command needed'" # Command to run before deployment (not needed for static sites)
+
+[context.production]
+  # Optional: Configure settings for the production context
+  # For example, you can add environment variables here
+
+[[redirects]]
+  from = "/old-path/*"
+  to = "/new-path/:splat"
+  status = 301
+  force = true
