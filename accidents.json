@@ -1,0 +1,20 @@
+{
+    "chain": [
+        {
+            "index": 0,
+            "year": 2024,
+            "month": 1,
+            "num_accidents": 10,
+            "previous_block_hash": null,
+            "hash": "07c5cf6286faf000b8135c4ecba9d68b77ddc95634dde8a24876f489cd0d8352"
+        },
+        {
+            "index": 1,
+            "year": 2024,
+            "month": 2,
+            "num_accidents": 5,
+            "previous_block_hash": "07c5cf6286faf000b8135c4ecba9d68b77ddc95634dde8a24876f489cd0d8352",
+            "hash": "8d68392c1693e4c834eff135b5ea21168ff074f8621b6ca7495bd93dcdb37b9a"
+        }
+    ]
+}

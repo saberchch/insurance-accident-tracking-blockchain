@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Warning</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="warning-container">
+        <h1>Warning: Blockchain Already Exists!</h1>
+        <p>A blockchain already exists. Do you want to add information to the existing blockchain?</p>
+        <form action="/create_genesis_block_confirm" method="post">
+            <button type="submit">Yes, add information</button>
+        </form>
+        <form action="/" method="get">
+            <button type="submit">No, cancel</button>
+        </form>
+    </div>
+</body>
+</html>
